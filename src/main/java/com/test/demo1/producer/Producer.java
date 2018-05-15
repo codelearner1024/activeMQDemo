@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class Producer {  
       
     @Autowired  
-    private JmsTemplate jmsTemplate;  
+    private JmsTemplate jmsTemplate;  //是经过配置的JmsTemplate
     /** 
      * 发送消息，estination是发送到的队列，message是待发送的消息 
      * @param destination 
